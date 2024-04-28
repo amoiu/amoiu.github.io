@@ -1,0 +1,109 @@
+/*
+Theme Name: CND2011D
+Theme URI: http://hxwk.org/
+Description: CND Theme D from 2010 
+Author: WL  
+Author URI: http://hxwk.org/
+Template: twentyten
+Version: 0.2
+*/
+ 
+@import url("../twentyten/style.css");
+
+a {  text-decoration: none; 
+     color: #0000EE; }
+
+A:hover {  text-decoration: underline overline;  
+           color: #FF9966; }
+
+A:visited {
+        COLOR: purple; TEXT-DECORATION: none }
+
+.cndh {vertical-align: top; 
+	border-collapse: collapse; }
+
+#container {
+        float: left;
+        margin: 0 -240px 0 0;
+        width: 100%;
+}
+#wrapper {
+	margin: 0 auto;
+	min-width: 940px;
+	width: 94%;
+}
+
+#branding img {
+        border-top: 4px solid #000;
+        border-bottom: 1px solid #000;
+        display: block;
+	margin-left: auto;
+	margin-right: auto;
+        float: center;
+	text-align: center;
+}
+
+#access {
+        background: #0070B8;
+        display: block;
+        float: left;
+        margin: 0 auto;
+        min-width: 940px;
+        width: 100%;
+}
+
+#colophon {
+        border-top: 4px solid #0070B8;
+        margin-top: -4px;
+        overflow: hidden;
+        padding: 18px 0;
+}
+
+#site-info {
+        float: left;
+        font-size: 14px;
+        font-weight: bold;
+        min-width: 700px;
+        width: 70%;
+}
+
+#site-title {
+        float: left;
+        font-size: 30px;
+        line-height: 36px;
+        margin: 0 0 18px 0;
+        min-width: 700px;
+        width: 70%;
+}
+
+.single-attachment #content {
+        margin: 0 auto;
+        min-width: 900px;
+        width: 90%;
+}
+
+div.menu {
+        font-size: 13px;
+        margin-left: 12px;
+        min-width: 928px;
+        width: 93%;
+}
+
+.one-column #content {
+        margin: 0 auto;
+        min-width: 640px;
+        width: 64%;
+}
+
+.hentry {
+	margin: 0 0 5px 0;
+}
+
+#access a {
+	color: #ff0;
+	display: block;
+	line-height: 38px;
+	padding: 0 10px;
+	text-decoration: none;
+}
+
